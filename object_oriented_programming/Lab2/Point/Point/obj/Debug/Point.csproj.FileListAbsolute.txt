@@ -1,0 +1,2 @@
+D:\NTU\AcademicYear-2024-2025\Semester2\Object-oriented-programming\Lab2\Point\Point\obj\Debug\Point.csproj.AssemblyReference.cache
+D:\NTU\AcademicYear-2024-2025\Semester2\Object-oriented-programming\Lab2\Point\Point\obj\Debug\Point.csproj.CoreCompileInputs.cache

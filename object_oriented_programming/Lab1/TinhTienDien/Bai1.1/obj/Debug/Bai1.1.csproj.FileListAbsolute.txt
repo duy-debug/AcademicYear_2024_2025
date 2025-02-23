@@ -1,0 +1,7 @@
+D:\NTU\AcademicYear-2024-2025\Semester2\Object-oriented-programming\Lab1\TinhTienDien\Bai1.1\bin\Debug\Bai1.1.exe.config
+D:\NTU\AcademicYear-2024-2025\Semester2\Object-oriented-programming\Lab1\TinhTienDien\Bai1.1\bin\Debug\Bai1.1.exe
+D:\NTU\AcademicYear-2024-2025\Semester2\Object-oriented-programming\Lab1\TinhTienDien\Bai1.1\bin\Debug\Bai1.1.pdb
+D:\NTU\AcademicYear-2024-2025\Semester2\Object-oriented-programming\Lab1\TinhTienDien\Bai1.1\obj\Debug\Bai1.1.csproj.AssemblyReference.cache
+D:\NTU\AcademicYear-2024-2025\Semester2\Object-oriented-programming\Lab1\TinhTienDien\Bai1.1\obj\Debug\Bai1.1.csproj.CoreCompileInputs.cache
+D:\NTU\AcademicYear-2024-2025\Semester2\Object-oriented-programming\Lab1\TinhTienDien\Bai1.1\obj\Debug\Bai1.1.exe
+D:\NTU\AcademicYear-2024-2025\Semester2\Object-oriented-programming\Lab1\TinhTienDien\Bai1.1\obj\Debug\Bai1.1.pdb

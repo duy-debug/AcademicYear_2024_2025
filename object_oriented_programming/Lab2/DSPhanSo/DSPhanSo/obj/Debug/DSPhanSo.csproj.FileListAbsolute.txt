@@ -1,0 +1,7 @@
+D:\NTU\AcademicYear-2024-2025\Semester2\Object-oriented-programming\Lab2\DSPhanSo\DSPhanSo\bin\Debug\DSPhanSo.exe.config
+D:\NTU\AcademicYear-2024-2025\Semester2\Object-oriented-programming\Lab2\DSPhanSo\DSPhanSo\bin\Debug\DSPhanSo.exe
+D:\NTU\AcademicYear-2024-2025\Semester2\Object-oriented-programming\Lab2\DSPhanSo\DSPhanSo\bin\Debug\DSPhanSo.pdb
+D:\NTU\AcademicYear-2024-2025\Semester2\Object-oriented-programming\Lab2\DSPhanSo\DSPhanSo\obj\Debug\DSPhanSo.csproj.AssemblyReference.cache
+D:\NTU\AcademicYear-2024-2025\Semester2\Object-oriented-programming\Lab2\DSPhanSo\DSPhanSo\obj\Debug\DSPhanSo.csproj.CoreCompileInputs.cache
+D:\NTU\AcademicYear-2024-2025\Semester2\Object-oriented-programming\Lab2\DSPhanSo\DSPhanSo\obj\Debug\DSPhanSo.exe
+D:\NTU\AcademicYear-2024-2025\Semester2\Object-oriented-programming\Lab2\DSPhanSo\DSPhanSo\obj\Debug\DSPhanSo.pdb
