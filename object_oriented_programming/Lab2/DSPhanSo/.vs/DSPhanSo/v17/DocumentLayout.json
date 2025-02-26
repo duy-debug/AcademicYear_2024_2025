@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\NTU\\AcademicYear-2024-2025\\Semester2\\Object-oriented-programming\\Lab2\\DSPhanSo\\",
+  "WorkspaceRootPath": "D:\\NTU\\AcademicYear_2024_2025\\Semester2\\Specialized\\object_oriented_programming\\Lab2\\DSPhanSo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C859F24-35F1-4864-8329-C2433B61F624}|DSPhanSo\\DSPhanSo.csproj|d:\\ntu\\academicyear-2024-2025\\semester2\\object-oriented-programming\\lab2\\dsphanso\\dsphanso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C859F24-35F1-4864-8329-C2433B61F624}|DSPhanSo\\DSPhanSo.csproj|d:\\ntu\\academicyear_2024_2025\\semester2\\specialized\\object_oriented_programming\\lab2\\dsphanso\\dsphanso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C859F24-35F1-4864-8329-C2433B61F624}|DSPhanSo\\DSPhanSo.csproj|solutionrelative:dsphanso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\NTU\\AcademicYear-2024-2025\\Semester2\\Object-oriented-programming\\Lab2\\DSPhanSo\\DSPhanSo\\Program.cs",
+              "DocumentMoniker": "D:\\NTU\\AcademicYear_2024_2025\\Semester2\\Specialized\\object_oriented_programming\\Lab2\\DSPhanSo\\DSPhanSo\\Program.cs",
               "RelativeDocumentMoniker": "DSPhanSo\\Program.cs",
-              "ToolTip": "D:\\NTU\\AcademicYear-2024-2025\\Semester2\\Object-oriented-programming\\Lab2\\DSPhanSo\\DSPhanSo\\Program.cs",
+              "ToolTip": "D:\\NTU\\AcademicYear_2024_2025\\Semester2\\Specialized\\object_oriented_programming\\Lab2\\DSPhanSo\\DSPhanSo\\Program.cs",
               "RelativeToolTip": "DSPhanSo\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADEAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAADwvxoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-22T06:26:54.934Z",
               "EditorCaption": ""

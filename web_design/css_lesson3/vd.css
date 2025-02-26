@@ -1,0 +1,35 @@
+.container{
+    /* background-color: aqua;
+    background-image: url(https://images.pexels.com/photos/1042423/pexels-photo-1042423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-size: 80% 50%;
+    background-attachment: fixed; */
+    width: 50%;
+    height: 100vh;
+    color: yellow;
+    background: radial-gradient(#5f5ddc,#94251d);
+    box-shadow: 5px 5px 40px rgb(151, 151, 37) inset;
+    border-top: 10px solid blue;
+    border-left: 10px solid red;
+    border-right: 10px solid green;
+    border-bottom: 10px solid purple;
+    border-radius: 5px;
+    /* background: linear-gradient() */
+}
+.box{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    width: 50%;
+    border: 5px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(196, 196, 109);
+    box-shadow: 5px 5px 50px red;
+    text-shadow: 5px 5px 8px black;
+    padding: 30px;
+    margin: 20px;
+}
+.content{
+    background-color: pink;
+}
