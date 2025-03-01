@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\NTU\\AcademicYear-2024-2025\\Semester2\\Object-oriented-programming\\Lab2\\Point\\",
+  "WorkspaceRootPath": "D:\\NTU\\AcademicYear_2024_2025\\Semester2\\Specialized\\object_oriented_programming\\Lab2\\Point\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1FEBFEFB-FC78-4A99-A224-BCC5942DF2FE}|Point\\Point.csproj|d:\\ntu\\academicyear-2024-2025\\semester2\\object-oriented-programming\\lab2\\point\\point\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1FEBFEFB-FC78-4A99-A224-BCC5942DF2FE}|Point\\Point.csproj|d:\\ntu\\academicyear_2024_2025\\semester2\\specialized\\object_oriented_programming\\lab2\\point\\point\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FEBFEFB-FC78-4A99-A224-BCC5942DF2FE}|Point\\Point.csproj|solutionrelative:point\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,21 +25,21 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\NTU\\AcademicYear-2024-2025\\Semester2\\Object-oriented-programming\\Lab2\\Point\\Point\\Program.cs",
+              "DocumentMoniker": "D:\\NTU\\AcademicYear_2024_2025\\Semester2\\Specialized\\object_oriented_programming\\Lab2\\Point\\Point\\Program.cs",
               "RelativeDocumentMoniker": "Point\\Program.cs",
-              "ToolTip": "D:\\NTU\\AcademicYear-2024-2025\\Semester2\\Object-oriented-programming\\Lab2\\Point\\Point\\Program.cs",
+              "ToolTip": "D:\\NTU\\AcademicYear_2024_2025\\Semester2\\Specialized\\object_oriented_programming\\Lab2\\Point\\Point\\Program.cs",
               "RelativeToolTip": "Point\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA0AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswFkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T10:34:48.034Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         }

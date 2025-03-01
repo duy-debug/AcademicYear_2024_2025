@@ -65,16 +65,31 @@ namespace Bai1._4
                 a[min] = temp;
             }
         }
-        public static void SplitArr(int[] a, int n, out List<int> even, out List<int> odd)
+        public static void SplitArr(int[] a, int n)
         {
-            even = new List<int>();
-            odd = new List<int>();
-            for (int i = 0; i < n; i++)
+            int[] b = new int[100];
+            int[] c = new int[100];
+            int cnt_b = 0, cnt_c = 0;
+            for(int i = 0; i < n; i++)
             {
                 if (a[i] % 2 == 0)
-                    even.Add(a[i]);
+                {
+                    b[cnt_b++] = a[i];
+                }
                 else
-                    odd.Add(a[i]);
+                {
+                    c[cnt_c++] = a[i];
+                }
+            }
+            Console.WriteLine("Mang chua cac phan tu chan: ");
+            for (int i = 0; i < cnt_b; i++)
+            {
+                Console.Write("{0} ", b[i]);
+            }
+            Console.WriteLine("\nMang chua cac phan tu le: ");
+            for (int i = 0; i < cnt_c; i++)
+            {
+                Console.Write("{0} ", c[i]);
             }
         }
         public static void Main()
@@ -98,17 +113,7 @@ namespace Bai1._4
             SortArr(a, n);
             OutArr(a, n);
             Console.WriteLine("\nTach mang thanh 2 mang con:");
-            SplitArr(a, n, out List<int> even, out List<int> odd);
-            Console.WriteLine("Mang chan: ");
-            foreach (int x in even)
-            {
-                Console.Write("{0} ", x);
-            }
-            Console.WriteLine("\nMang le: ");
-            foreach (int x in odd)
-            {
-                Console.Write("{0} ", x);
-            }
+            SplitArr(a, n);
         }
     }
 }

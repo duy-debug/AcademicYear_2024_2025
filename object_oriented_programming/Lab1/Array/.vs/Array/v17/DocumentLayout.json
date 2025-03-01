@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\NTU\\AcademicYear-2024-2025\\Semester2\\Object-oriented-programming\\Lab1\\Array\\",
+  "WorkspaceRootPath": "D:\\NTU\\AcademicYear_2024_2025\\Semester2\\Specialized\\object_oriented_programming\\Lab1\\Array\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4592BAF5-50AB-432E-839F-875E9C58E575}|Bai1.4\\Bai1.4.csproj|d:\\ntu\\academicyear-2024-2025\\semester2\\object-oriented-programming\\lab1\\array\\bai1.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4592BAF5-50AB-432E-839F-875E9C58E575}|Bai1.4\\Bai1.4.csproj|d:\\ntu\\academicyear_2024_2025\\semester2\\specialized\\object_oriented_programming\\lab1\\array\\bai1.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4592BAF5-50AB-432E-839F-875E9C58E575}|Bai1.4\\Bai1.4.csproj|solutionrelative:bai1.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,18 +29,14 @@
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\NTU\\AcademicYear-2024-2025\\Semester2\\Object-oriented-programming\\Lab1\\Array\\Bai1.4\\Program.cs",
+              "DocumentMoniker": "D:\\NTU\\AcademicYear_2024_2025\\Semester2\\Specialized\\object_oriented_programming\\Lab1\\Array\\Bai1.4\\Program.cs",
               "RelativeDocumentMoniker": "Bai1.4\\Program.cs",
-              "ToolTip": "D:\\NTU\\AcademicYear-2024-2025\\Semester2\\Object-oriented-programming\\Lab1\\Array\\Bai1.4\\Program.cs",
+              "ToolTip": "D:\\NTU\\AcademicYear_2024_2025\\Semester2\\Specialized\\object_oriented_programming\\Lab1\\Array\\Bai1.4\\Program.cs",
               "RelativeToolTip": "Bai1.4\\Program.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAqwGYAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwHMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T07:21:27.128Z",
               "EditorCaption": ""

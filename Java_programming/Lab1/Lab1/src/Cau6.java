@@ -1,5 +1,7 @@
 import java.util.Scanner;
 public class Cau6 {
+
+  //Câu 6. Viết chương trình cho phép nhập ba số nguyên từ bàn phím và lưu vào ba biến tương ứng là num1, num2, num3. Chương trình sẽ sắp xếp ba số đó theo thứ tự num1 <=  num2 <= num3 và xuất kết quả ra màn hình.
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
