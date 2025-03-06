@@ -6,12 +6,12 @@
 .left{
     width: 20%;
     float: left;
-    border: 1px solid #ccc;
+    border: 1px solid #000;
 }
 .right{
     width: 80%;
     float: left;
-    border: 1px solid #ccc;
+    border: 1px solid #000;
 }
 .clear{
     clear: both;
@@ -59,4 +59,8 @@
 .ndvd3{
     margin-left: 15px;
     margin-bottom: 5px;
+}
+.container{
+    width: 65%;
+    border: 1px solid orange;
 }

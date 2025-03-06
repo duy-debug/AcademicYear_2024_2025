@@ -26,7 +26,7 @@ public class Cau14 {
     System.out.println();
     // Pattern III
     for (int i = 1; i <= 6; i++) {
-      for (int j = 6 - i; j > 0; j--)
+      for (int j = 6 - i; j >= 1; j--)
         System.out.print("  ");
       for (int j = i; j >= 1; j--)
         System.out.print(j + " ");
@@ -35,12 +35,10 @@ public class Cau14 {
     // Pattern IV
     System.out.println();
     for (int i = 1; i <= 6; i++) {
-      for (int j = 1; j <= 6 - i + 1; j++){
+      for (int j = i; j > 1; j--)
+        System.out.print("  ");
+      for (int j = 1; j <= 6-i+1; j++)
         System.out.print(j + " ");
-      }
-      for (int j = i; j >= 1; j--){
-        System.out.print(" ");
-      }
       System.out.println();
     }
   }

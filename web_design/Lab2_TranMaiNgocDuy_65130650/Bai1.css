@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    box-shadow: 3px 10px 15px #ccc,
+                -3px -10px 15px #ccc;
+    margin: 0 auto;
+    width: 80%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.left-header{
+    width: 30%;
+}
+.left-header img{
+    width: 40%;
+}
+.right-header{
+    display: flex;
+    flex-direction: column;
+}
+.btn-header input{
+    color: white;
+    width: 100px;
+    padding: 7px 0px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #23688E;
+    margin-bottom: 20px;
+    border: 1px solid #3196af;
+}
+.menu-header li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 10px;
+    border-left: 2px solid #ccc;
+}
+.menu-header li a{
+    text-decoration: none;
+    color: black;
+}
+.menu-header li:first-child{
+    border-left: none;
+}
+.btn-header{
+    display: flex;
+    justify-content: flex-end
+}
+.menu-main{
+    background-color: #2a495b;
+    padding: 10px;
+    font-size: 18px;
+}
+.menu-main li{
+    border-left: 1px solid #9399ab;
+}
+.menu-main li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container{
+    display: grid;
+    /* phân cách độ rộng màn hình */
+    grid-template-columns: 75% 20%; 
+    /* Khe hở */
+    column-gap: 5%;
+    margin-top: 10px;
+    padding: 10px;
+}
+h3.title{
+    border-bottom: 3px solid #9399ab;
+    color: #7192a5;
+    font-size: 25px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.product{
+    display: grid;
+    grid-template-columns: 35% 60%;
+    column-gap: 50px;
+}
+.product_content{
+    margin-left: -55px;
+}
+.product img{
+    width: 90%;
+    border-radius: 5px;
+}
+.list-img{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    column-gap: 10px;
+    background-color: #d5cbc8;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+ .list-img img{
+    width: 100%;
+    height: 100px;
+ }
+ .newfeel li{
+    list-style-type: none;
+    border-bottom: 1px dashed #9399ab;
+    padding: 7px 0px;
+    margin-left: 13px;
+ }
+.newfeel p.date{
+    font-size: 18px;
+    color: #000;
+}
+.newfeel p{
+    padding: 0px;
+    color: blue;
+}
+.menu-ver{
+    margin-left: 20px;
+}
+.footer{
+    border-top: 3px solid #9399ab;
+}

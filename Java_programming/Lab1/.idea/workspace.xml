@@ -2,23 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28b56912-6b83-495f-8e69-62257a11d2ad" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Java-PVN/BÀI TẬP JAVA_Part1.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/Bai1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/src/Cau6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/src/Cau8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/src/Cau9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab1/Cau6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab1/Cau8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab1/Cau9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../technical_english/unit1_Tránlate.pdf" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab1/src/Cau35.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab1/src/Cau36.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab1/src/Cau38a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab1/src/Cau38b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab1/src/Cau39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab1/src/Cau40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab1/src/Cau44.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab1/src/Cau45.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab1/src/Cau48.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/OOP/src/Clock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/OOP/src/Clocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-PVN/Part2-OOP in Java/OOP in Java.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-PVN/Part2-OOP in Java/OOP in Java.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-PVN/Part3-Exceptions/Exceptions.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-PVN/Part3-Exceptions/Exceptions.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-PVN/Part5-GUI/GUI.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-PVN/Part5-GUI/GUI.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/src/Cau14.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/src/Cau14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../database_management_system/Chuong2_Bai2_QLDA.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../database_management_system/Chuong2_Bai2_QLDA.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web_design/Lab1_TranMaiNgocDuy_65130650/bai2.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../web_design/Lab1_TranMaiNgocDuy_65130650/bai2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web_design/Lab1_TranMaiNgocDuy_65130650/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../web_design/Lab1_TranMaiNgocDuy_65130650/bai2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web_design/Lab1_TranMaiNgocDuy_65130650/bai3.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../web_design/Lab1_TranMaiNgocDuy_65130650/bai3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web_design/Lab1_TranMaiNgocDuy_65130650/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../web_design/Lab1_TranMaiNgocDuy_65130650/bai3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web_design/Lab2_TranMaiNgocDuy_65130650/images/background-menu-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web_design/Lab2_TranMaiNgocDuy_65130650/menu1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web_design/Lab2_TranMaiNgocDuy_65130650/menu1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web_design/Lab2_TranMaiNgocDuy_65130650/template/Logo-Khoa-CNTT-NTU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web_design/Lab2_TranMaiNgocDuy_65130650/template/menu-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web_design/Lab2_TranMaiNgocDuy_65130650/template/menu-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web_design/Lab2_TranMaiNgocDuy_65130650/template/menu-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web_design/Lab2_TranMaiNgocDuy_65130650/template/menu-dacap.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,22 +40,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "duy-debug"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;duy-debug&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/duy-debug/AcademicYear_2024_2025.git",
-    "accountId": "4a625fa5-184e-46ab-9660-03a6292615bd"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/duy-debug/AcademicYear_2024_2025.git&quot;,
+    &quot;accountId&quot;: &quot;4a625fa5-184e-46ab-9660-03a6292615bd&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2tfcsZFAMLdIfUvKTh1ey19WNZs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,6 +67,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/NTU/AcademicYear_2024_2025/Semester2/Specialized/Java_programming/Lab1",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -76,6 +89,8 @@
       <option name="presentableId" value="Default" />
       <updated>1740746778040</updated>
       <workItem from="1740746779607" duration="39000" />
+      <workItem from="1741179994830" duration="208000" />
+      <workItem from="1741180437537" duration="113000" />
     </task>
     <servers />
   </component>
