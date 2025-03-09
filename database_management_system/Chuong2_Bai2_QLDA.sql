@@ -141,3 +141,15 @@ VALUES
 	('NV6',N'TRAN MINH AN','NAM','1980-08-05',N'ANH TRAI'),
 	('NV7',N'LE THI NGAN','NU','1980-06-07',N'EM GÁI'),
 	('NV9',N'TRAN QUOC VUONG','NAM','1975-05-05',N'CHỒNG')
+--Chương3_Bai2_Query
+--Phần cơ bản
+-- Câu 1: Cho biết tên, tuổi của từng nhân viên
+SELECT TENNV, 
+       DATEDIFF(YEAR, NGAYSINH, GETDATE())- 
+       CASE 
+           WHEN (MONTH(NgaySinh) > MONTH(GETDATE())) OR 
+		   (MONTH(NgaySinh) = MONTH(GETDATE()) AND 
+		   DAY(NgaySinh) > DAY(GETDATE())) 
+           THEN 1 ELSE 0 
+		   END AS Tuoi
+FROM NHANVIEN;
