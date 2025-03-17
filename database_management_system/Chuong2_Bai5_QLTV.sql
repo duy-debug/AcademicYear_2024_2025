@@ -181,3 +181,11 @@ CREATE TABLE QuaTrinhMuon
 		('ISBN003', 'CS004', '2025-04-01', 3, '2025-04-15', '2025-04-10', 4.00, 4.00, 0.00, 'Returned on time'),
 		('ISBN004', 'CS005', '2023-09-15', 4, '2023-09-30', '2023-09-25', 6.00, 6.00, 0.00, 'Returned on time'),
 		('ISBN005', 'CS006', '2022-06-15', 5, '2022-06-30', '2022-06-25', 8.00, 8.00, 0.00, 'Returned on time');
+-- Câu 1: Có bao nhiêu phiếu mượn sách thư viện trong năm qua?
+-- Câu 2: Cho biết danh sách số ngày mượn của các lần đã mượn sách
+-- Câu 3: Cho biết danh sách số ngày mượn sách trung bình của các lần đã mượn sách?
+-- Câu 4: Cho biết danh sách những phiếu mượn trả sách quá hạn?
+-- Câu 5 : Cho biết danh sách (đọc giả, sách được mượn) những độc giả đã được mượn quá hạn?
+-- Câu 6: Cho biết danh sách (đọc giả, sách được mượn) những độc giả đã và đang được mượn quá hạn?
+-- Câu 7: Số lượng sách nhiều nhất mà một người đã mượn?
+-- Câu 8 : bạn đọc mược sách nhiều nhất là ngày nào

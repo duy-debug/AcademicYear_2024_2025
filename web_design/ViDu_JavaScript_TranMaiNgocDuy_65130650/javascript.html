@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  li a{
+    text-decoration: none;
+  }
+  li{
+    list-style-type: none;
+    display: inline-block;
+  }
+</style>
+<body>
+    <p>Họ và tên: <span id="name"></span></p>
+    a: <input type="text" name="" id="a"> <br>
+    b: <input type="text" name="" id="b"> <br>
+    Tong: <input type="text" readonly name="" id="Tong"> <br>
+    <input type="submit" onclick="tinhTong()" value="Tinh Tong">
+    <input type="button" value="click me" id="btn_click">
+    <ul>
+      <li><a href="#" class="show">Trang Chủ</a></li>
+      <li><a href="#" class="show">Trang Chủ</a></li>
+      <li><a href="#" class="show">Trang Chủ</a></li>
+    </ul>
+    <script>
+      var list=document.getElementsByClassName('show');
+      for(let i=0; i<list.length; i++){
+        list[i].onclick=function(){
+          alert('Bạn vừa click vào'+this.innerHTML);
+        }
+      }
+        document.getElementById('btn_click').onclick = function(){
+          alert("Hello");
+        }
+        function tinhTong(){
+          var a = (document.getElementById('a').value) || 0;
+          var b = (document.getElementById('b').value) || 0;
+          if(isNaN(a) || isNaN(b)){
+              alert("Nhập lại");
+          }
+          else{
+            document.getElementById("Tong").value = parseFloat(a) + parseFloat(b);
+          }
+        }
+        var do_alert = setTimeout(function(){
+            alert("Chào bạn");
+        }, 3000)
+        function check(number){
+            if(number % 2 == 0)
+                alert(number + "Số chẵn")
+            else
+             alert(number + "Số lẻ")
+        }
+        check();
+        var web = "tinhoc123.edu.vn";
+        console.log(web);
+        var a = confirm("Are you oke?");
+        var firstname = prompt("Họ tên: ","");
+        document.getElementById("name").innerText=firstname;
+        let timeId = setInterval(() => alert('Hello'), 3000)
+        setTimeout(() => {clearInterval(timeId); alert('Bye');}, 6000);
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Elegance - Cửa hàng nội thất cao cấp</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 1rem;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .cart-icon {
+            position: relative;
+            cursor: pointer;
+        }
+        
+        .cart-count {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background-color: #e74c3c;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.8rem;
+        }
+        
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/api/placeholder/1200/400');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            max-width: 800px;
+        }
+        
+        .cta-button {
+            background-color: #e74c3c;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .cta-button:hover {
+            background-color: #c0392b;
+        }
+        
+        .products {
+            padding: 2rem;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+            color: #2c3e50;
+        }
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+        
+        .product-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .product-info {
+            padding: 1rem;
+        }
+        
+        .product-title {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: #2c3e50;
+        }
+        
+        .product-price {
+            font-size: 1.3rem;
+            color: #e74c3c;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        
+        .add-to-cart {
+            background-color: #3498db;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            width: 100%;
+        }
+        
+        .add-to-cart:hover {
+            background-color: #2980b9;
+        }
+        
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        
+        .footer-links a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        
+        .modal-content {
+            background-color: white;
+            margin: 10% auto;
+            padding: 20px;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 600px;
+            animation: modalopen 0.3s;
+        }
+        
+        @keyframes modalopen {
+            from {opacity: 0; transform: translateY(-20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+        
+        .close-btn {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close-btn:hover {
+            color: black;
+        }
+        
+        .cart-items {
+            margin-top: 1rem;
+        }
+        
+        .cart-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .cart-total {
+            margin-top: 1rem;
+            text-align: right;
+            font-weight: bold;
+        }
+        
+        .checkout-btn {
+            background-color: #2ecc71;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            float: right;
+            margin-top: 1rem;
+        }
+        
+        .checkout-btn:hover {
+            background-color: #27ae60;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Home Elegance</div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Trang chủ</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="#">Về chúng tôi</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon" id="cartIcon">
+            <span>🛒</span>
+            <span class="cart-count" id="cartCount">0</span>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <h1>Nội thất cao cấp cho không gian sống của bạn</h1>
+        <p>Khám phá bộ sưu tập nội thất đa dạng và đẳng cấp, mang đến không gian sống tiện nghi và sang trọng</p>
+        <button class="cta-button">Khám phá ngay</button>
+    </section>
+    
+    <section class="products">
+        <h2 class="section-title">Sản phẩm nổi bật</h2>
+        <div class="product-grid" id="productGrid">
+            <!-- Sản phẩm sẽ được tạo động bằng JavaScript -->
+        </div>
+    </section>
+    
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeCart">&times;</span>
+            <h2>Giỏ hàng của bạn</h2>
+            <div class="cart-items" id="cartItems">
+                <!-- Giỏ hàng sẽ được tạo động bằng JavaScript -->
+            </div>
+            <div class="cart-total" id="cartTotal">
+                Tổng cộng: 0 VND
+            </div>
+            <button class="checkout-btn" id="checkoutBtn">Thanh toán</button>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-links">
+            <a href="#">Chính sách</a>
+            <a href="#">Điều khoản</a>
+            <a href="#">Hỗ trợ</a>
+        </div>
+        <p>&copy; 2025 Home Elegance. Tất cả quyền được bảo lưu.</p>
+    </footer>
+    
+    <script>
+        // Dữ liệu sản phẩm (thay thế bằng dữ liệu từ API/backend trong thực tế)
+        const products = [
+            {
+                id: 1,
+                name: "Ghế sofa cao cấp",
+                price: 18500000,
+                image: "/api/placeholder/400/300",
+                description: "Ghế sofa phong cách hiện đại, chất liệu da cao cấp"
+            },
+            {
+                id: 2,
+                name: "Bàn ăn gỗ sồi",
+                price: 12000000,
+                image: "/api/placeholder/400/300",
+                description: "Bàn ăn gỗ sồi tự nhiên, thiết kế tinh tế và sang trọng"
+            },
+            {
+                id: 3,
+                name: "Giường ngủ King size",
+                price: 25000000,
+                image: "/api/placeholder/400/300",
+                description: "Giường ngủ kích thước lớn, chất liệu gỗ tự nhiên"
+            },
+            {
+                id: 4,
+                name: "Tủ quần áo 4 cánh",
+                price: 15000000,
+                image: "/api/placeholder/400/300",
+                description: "Tủ quần áo hiện đại với nhiều ngăn chứa tiện dụng"
+            },
+            {
+                id: 5,
+                name: "Kệ TV thông minh",
+                price: 8500000,
+                image: "/api/placeholder/400/300",
+                description: "Kệ TV đa năng với nhiều ngăn chứa và thiết kế hiện đại"
+            },
+            {
+                id: 6,
+                name: "Bàn làm việc",
+                price: 7500000,
+                image: "/api/placeholder/400/300",
+                description: "Bàn làm việc thiết kế tinh tế, gọn gàng và hiệu quả"
+            }
+        ];
+        
+        // Định dạng tiền tệ VND
+        function formatCurrency(amount) {
+            return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(amount);
+        }
+        
+        // Hiển thị sản phẩm
+        function displayProducts() {
+            const productGrid = document.getElementById('productGrid');
+            productGrid.innerHTML = '';
+            
+            products.forEach(product => {
+                const productCard = document.createElement('div');
+                productCard.className = 'product-card';
+                
+                productCard.innerHTML = `
+                    <img src="${product.image}" alt="${product.name}" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">${product.name}</h3>
+                        <p class="product-price">${formatCurrency(product.price)}</p>
+                        <button class="add-to-cart" data-id="${product.id}">Thêm vào giỏ hàng</button>
+                    </div>
+                `;
+                
+                productGrid.appendChild(productCard);
+            });
+            
+            // Thêm sự kiện cho nút "Thêm vào giỏ hàng"
+            const addToCartButtons = document.querySelectorAll('.add-to-cart');
+            addToCartButtons.forEach(button => {
+                button.addEventListener('click', addToCart);
+            });
+        }
+        
+        // Giỏ hàng
+        let cart = [];
+        
+        // Thêm sản phẩm vào giỏ hàng
+        function addToCart(event) {
+            const productId = parseInt(event.target.getAttribute('data-id'));
+            const product = products.find(p => p.id === productId);
+            
+            // Kiểm tra xem sản phẩm đã có trong giỏ hàng chưa
+            const existingItem = cart.find(item => item.id === productId);
+            if (existingItem) {
+                existingItem.quantity += 1;
+            } else {
+                cart.push({
+                    id: product.id,
+                    name: product.name,
+                    price: product.price,
+                    quantity: 1
+                });
+            }
+            
+            // Cập nhật số lượng sản phẩm
+            updateCartCount();
+            
+            // Hiển thị thông báo
+            alert(`Đã thêm "${product.name}" vào giỏ hàng!`);
+        }
+        
+        // Cập nhật số lượng sản phẩm trong giỏ hàng
+        function updateCartCount() {
+            const cartCount = document.getElementById('cartCount');
+            const totalItems = cart.reduce((total, item) => total + item.quantity, 0);
+            cartCount.textContent = totalItems;
+        }
+        
+        // Hiển thị giỏ hàng
+        function displayCart() {
+            const cartItems = document.getElementById('cartItems');
+            const cartTotal = document.getElementById('cartTotal');
+            
+            cartItems.innerHTML = '';
+            
+            if (cart.length === 0);}

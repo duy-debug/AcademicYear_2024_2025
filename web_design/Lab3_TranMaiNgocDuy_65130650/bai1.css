@@ -156,11 +156,18 @@ html{
     padding: 0 10px;
     font-weight: 450;
 }
+.bathroom-title ul li a{
+    text-decoration: none;
+    color: #000;
+}
 .bathroom-title h2{
     font-weight: 410;
 }
-.bathroom-title ul li:first-child{
+.bathroom-title ul li a:hover{
     color: #A1C36D;
+}
+.bathroom-title ul li:first-child a{
+    color: #A1C36D !important;
 }
 .bathroom-title ul li i{
     font-size: 13px;
@@ -171,6 +178,13 @@ html{
     padding-right: 15px;
     margin-top: 10px;
     margin-bottom: 15px;
+}
+.bathroom2-menu ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.bathroom2-menu ul li a:hover{
+    color: #A1C36D;
 }
 .bathroom2{
     display: grid;
