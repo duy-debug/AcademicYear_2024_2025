@@ -189,3 +189,11 @@ CREATE TABLE QuaTrinhMuon
 -- Câu 6: Cho biết danh sách (đọc giả, sách được mượn) những độc giả đã và đang được mượn quá hạn?
 -- Câu 7: Số lượng sách nhiều nhất mà một người đã mượn?
 -- Câu 8 : bạn đọc mược sách nhiều nhất là ngày nào
+--Bài tập 5: Câu 32: Tìm độc giả đã đăng ký mượn tất cả các đầu sách
+SELECT DG.Ma_DocGia, DG.Ho, DG.Ten
+FROM DocGia DG
+JOIN DangKy DK ON DG.Ma_DocGia = DK.Ma_DocGia
+JOIN DauSach DS ON DK.ISBN = DS.ISBN
+GROUP BY DG.Ma_DocGia, DG.Ho, DG.Ten
+HAVING COUNT(DISTINCT DS.ISBN) = (SELECT COUNT(DISTINCT ISBN) FROM DauSach);
+

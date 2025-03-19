@@ -44,25 +44,26 @@ public class Cau31 {
       }
     }
   }
+  public static class Coin{
+    private static final int HEADS = 0; // chỉ mặt ngữa
+    private static final int TAILS = 1; // chỉ mặt sấp
+    private int face; // lưu trạng thái sấp hay ngửa của đồng xu
+    public Coin() { // Constructor
+      flip();
+    }
+    public void flip() { // Tạo giá trị ngẫu nhiên
+      Random rand = new Random();
+      face = rand.nextInt(2);
+    }
+    public boolean isHeads(){ // trả lại giá trị true nếu như đồng xu là ngữa
+      return face == HEADS;
+    }
+    public String toString(){
+      if(isHeads())
+        return "Heads";
+      else
+        return "Tails";
+    }
+  }
 }
-class  Coin{
-  private static final int HEADS = 0; // chỉ mặt ngữa
-  private static final int TAILS = 1; // chỉ mặt sấp
-  private int face; // lưu trạng thái sấp hay ngửa của đồng xu
-  public Coin() { // Constructor
-    flip();
-  }
-  public void flip() { // Tạo giá trị ngẫu nhiên
-    Random rand = new Random();
-    face = rand.nextInt(2);
-  }
-  public boolean isHeads(){ // trả lại giá trị true nếu như đồng xu là ngữa
-    return face == HEADS;
-  }
-  public String toString(){
-    if(isHeads())
-      return "Heads";
-    else
-      return "Tails";
-  }
-}
+
