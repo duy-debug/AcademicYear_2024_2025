@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+html{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    line-height: 20px;
+}
+.menu{
+    border-bottom: 2px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-right ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px;
+}
+.menu-right ul li{
+    margin-right: 25px;
+    list-style: none;
+}
+.menu-right ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.menu-right ul li:hover a{
+    color: orange;
+}
+.menu-right ul li:last-child a{
+    color: orange  !important;
+}
+.menu-left{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.banner img{
+    width: 100%;
+    margin-top: 40px;
+}
+.reason-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    margin: 5% 10%;
+}
+.reson-box-content{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 30px 10px;
+}
+.reson-box-content h3{
+    margin: 20px 0;
+    color: #303851;
+    font-weight: 650;
+}
+i{
+    font-size: 40px;
+    color: orange;
+}
+.reason-title{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.reson-box-content p{
+    color: #A8AFC5;
+}
+.about{
+    position: relative;
+    width: 900px;
+    display: flex;
+}
+.text-box {
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    background-color: #2A46A9;
+    color: white;
+    padding: 30px;
+    width: 370px;
+    height: 400px;
+
+}
+.image-box img{
+    width: 80%;
+}
+.text-box a{
+    text-decoration: none;
+    background-color: #fff;
+    color: #154cda;
+    padding: 7px 10px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.text-box h2{
+    margin-bottom: 15px;
+}
+.text-box p{
+    padding: 15px 5px;
+}
+.ads{
+    margin-left: 40px;
+    position: relative;
+    margin-top: 50px;
+}
+.ads-content{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.ads-content-left h2{
+    margin-bottom: 25px;
+}
+.ads-content-left{
+    margin-left: -35px;
+}
+.ads-content-left span{
+    border-bottom: 1px solid #fff;
+    margin-left: 5px;
+}
+.ads-content-right a{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.bottom-left p{
+    margin-bottom: 30px;
+}
+.bottom-left span{
+    color: #3553ab;
+    font-weight: 500;
+}
+.bottom-right p{
+    color: #3553ab;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.bottom-right form{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.bottom-right input{
+    padding: 7px 10px;
+    margin-right: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 3px;
+}
+.bottom-right button{
+
+    padding: 7px 20px;
+    background-color: orange;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 600;
+}
+.bottom-right-icon ion-icon{
+    font-size: 30px;
+    margin-right: 10px;
+}
+

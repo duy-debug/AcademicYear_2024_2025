@@ -1,0 +1,7 @@
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Shape\Shape\obj\Debug\Shape.csproj.AssemblyReference.cache
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Shape\Shape\obj\Debug\Shape.csproj.CoreCompileInputs.cache
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Shape\Shape\bin\Debug\Shape.exe.config
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Shape\Shape\bin\Debug\Shape.exe
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Shape\Shape\bin\Debug\Shape.pdb
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Shape\Shape\obj\Debug\Shape.exe
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Shape\Shape\obj\Debug\Shape.pdb

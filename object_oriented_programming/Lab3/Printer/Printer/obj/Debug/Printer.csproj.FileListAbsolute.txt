@@ -1,0 +1,7 @@
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Printer\Printer\bin\Debug\Printer.exe.config
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Printer\Printer\bin\Debug\Printer.exe
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Printer\Printer\bin\Debug\Printer.pdb
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Printer\Printer\obj\Debug\Printer.csproj.AssemblyReference.cache
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Printer\Printer\obj\Debug\Printer.csproj.CoreCompileInputs.cache
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Printer\Printer\obj\Debug\Printer.exe
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Printer\Printer\obj\Debug\Printer.pdb

@@ -1,0 +1,7 @@
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Employees\Employees\bin\Debug\Employees.exe.config
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Employees\Employees\bin\Debug\Employees.exe
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Employees\Employees\bin\Debug\Employees.pdb
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Employees\Employees\obj\Debug\Employees.csproj.AssemblyReference.cache
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Employees\Employees\obj\Debug\Employees.csproj.CoreCompileInputs.cache
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Employees\Employees\obj\Debug\Employees.exe
+D:\NTU\AcademicYear_2024_2025\Semester2\Specialized\object_oriented_programming\Lab3\Employees\Employees\obj\Debug\Employees.pdb

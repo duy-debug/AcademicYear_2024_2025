@@ -25,10 +25,17 @@ namespace Vehicle
         }
         public virtual void In()
         {
-            Console.Write("Nhập bản số xe: ");
-            bienSo = Console.ReadLine();
-            Console.Write("Nhập năm sản xuất: ");
-            namSanXuat = int.Parse(Console.ReadLine());
+            do
+            {
+                Console.Write("Nhập bản số xe: ");
+                bienSo = Console.ReadLine();
+            } while (bienSo.Length != 8);
+            int namHienTai = DateTime.Now.Year;
+            do
+            {
+                Console.Write("Nhập năm sản xuất: ");
+                namSanXuat = int.Parse(Console.ReadLine());
+            } while (namSanXuat < 1900 || namSanXuat > namHienTai);
             Console.Write("Nhập giá (triệu đồng): ");
             gia = double.Parse(Console.ReadLine());
         }
@@ -72,8 +79,11 @@ namespace Vehicle
             base.In();
             Console.Write("Nhập số chỗ ngồi: ");
             soChoNgoi = int.Parse(Console.ReadLine());
-            Console.Write("Nhập loại xe: ");
-            loaiXe = Console.ReadLine();
+            do
+            {
+                Console.Write("Nhập loại xe: ");
+                loaiXe = Console.ReadLine();
+            } while (loaiXe.Length <= 10);
         }
         public override void Out()
         {
