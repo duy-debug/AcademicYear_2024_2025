@@ -90,6 +90,27 @@ JOIN BangPhong BP ON BP.MaPhong = DP.MaPhong
 JOIN KhachSan KS ON KS.MaKhachSan = BP.MaKhachSan
 GROUP BY KH.HoTen
 HAVING COUNT(DISTINCT KS.MaKhachSan) = (SELECT COUNT(*) FROM KhachSan);
+--7.Tạo thủ tục cho phép chèn dữ liệu vào bảng DatPhong. Cho ví dụ minh họa.
+-- Tạo thủ tục InsertDatPhong
+GO
+CREATE PROCEDURE InsertDatPhong
+    @MaDatPhong VARCHAR(5),
+    @MaKhachHang VARCHAR(5),
+    @MaPhong VARCHAR(5),
+    @NgayDen DATETIME,
+    @NgayDi DATETIME,
+    @SoNguoi TINYINT
+AS
+BEGIN
+    INSERT INTO DatPhong (MaDatPhong, MaKhachHang, MaPhong, NgayDen, NgayDi, SoNguoi)
+    VALUES (@MaDatPhong, @MaKhachHang, @MaPhong, @NgayDen, @NgayDi, @SoNguoi);
+END;
+GO
+
+-- Ví dụ minh họa: Chèn một bản ghi mới vào bảng DatPhong
+EXEC InsertDatPhong 'DP006', 'KH001', 'P001', '2025-05-01', '2025-05-05', 2;
+
+
 --8.Tạo hàm trả về danh sách đặt phòng của một khách hàng theo CMND. Cho ví dụ minh họa.
 GO
 CREATE FUNCTION fn_LietKeDatPhong(@CMND VARCHAR(12))
