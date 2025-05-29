@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{DC425E2F-01E5-42D8-8343-1E617E2290E2}|Stack\\Stack.csproj|solutionrelative:stack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC425E2F-01E5-42D8-8343-1E617E2290E2}|Stack\\Stack.csproj|d:\\ntu\\academicyear_2024_2025\\semester2\\specialized\\object_oriented_programming\\lab2\\stack\\stack\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{DC425E2F-01E5-42D8-8343-1E617E2290E2}|Stack\\Stack.csproj|D:\\NTU\\AcademicYear_2024_2025\\Semester2\\Specialized\\object_oriented_programming\\Lab2\\Stack\\stack\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{DC425E2F-01E5-42D8-8343-1E617E2290E2}|Stack\\Stack.csproj|solutionrelative:stack\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -42,8 +42,7 @@
               "RelativeToolTip": "Stack\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-03-14T14:54:59.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T14:54:59.486Z"
             },
             {
               "$type": "Document",
@@ -51,9 +50,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\NTU\\AcademicYear_2024_2025\\Semester2\\Specialized\\object_oriented_programming\\Lab2\\Stack\\Stack\\Program.cs",
               "RelativeDocumentMoniker": "Stack\\Program.cs",
-              "ToolTip": "D:\\NTU\\AcademicYear_2024_2025\\Semester2\\Specialized\\object_oriented_programming\\Lab2\\Stack\\Stack\\Program.cs",
-              "RelativeToolTip": "Stack\\Program.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAUwBMAAAAUAAAAAAAAAA==",
+              "ToolTip": "D:\\NTU\\AcademicYear_2024_2025\\Semester2\\Specialized\\object_oriented_programming\\Lab2\\Stack\\Stack\\Program.cs*",
+              "RelativeToolTip": "Stack\\Program.cs*",
+              "ViewState": "AgIAAHEAAAAAAAAAAAA0wF0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T14:11:37.009Z",
               "EditorCaption": ""

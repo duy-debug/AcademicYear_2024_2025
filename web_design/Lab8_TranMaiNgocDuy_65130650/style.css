@@ -1,0 +1,8 @@
+/* .navbar-toggler .navbar-toggler-icon{
+    background-color: rgba(0,0,0,0);
+    filter: invert(1);
+} */
+.carousel-control-prev .carousel-control-prev-icon, .carousel-control-next .carousel-control-next-icon{
+    background-color: rgba(0,0,0,0);
+    filter: invert(1);
+}

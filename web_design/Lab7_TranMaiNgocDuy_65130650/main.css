@@ -1,0 +1,214 @@
+:root{
+    --primary: #3CB815;
+    --light: #f7f6fc;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.top_bar{
+    height: 45px;
+    border-bottom: 1px solid rgb(0,0,0, 0.07);
+}
+.btn-sm-square{
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: black;
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 25%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--primary);
+    border-radius: 3rem;
+
+}
+.carousel-caption{
+    top:0px;
+    left: 20px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    z-index: 1;
+}
+.btn{
+    padding: 5px 4rem;
+}
+.service:hover{
+    background-color: #F65004 !important;
+}
+.service{
+    background-color: #F65004 !important;
+    color: white;
+    font-weight: 700;
+}
+
+.navbar-brand{
+    color: var(--primary);
+}
+.check i{
+    color: var(--primary);
+    margin-right: 15px;
+}
+.product{
+    background-color: var(--primary);
+    font-weight: 700;
+    color: white;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.read{
+    font-weight: 700;
+    color: white !important;
+    height: 40px !important;
+}
+.bg-icon{
+    background: url(img/bg-icon.png) center repeat;
+    background-size: contain;
+}
+.section-header{
+    position: relative;
+    padding-top: 25px;
+}
+.section-header::before{
+    content: "";
+    position: absolute;
+    top:0px;
+    left: 50%;
+    height: 2px;
+    width: 50px;
+    background-color: var(--primary);
+    transform: translate(-50%);
+}
+.section-header::after{
+    content: "";
+    position: absolute;
+    top:10px;
+    left: 50%;
+    height: 3px;
+    width: 80px;
+    background-color: #F65004;
+    transform: translate(-50%);
+}
+.read_feature:hover, .active_feature{
+    background-color: var(--primary);
+    color: white !important;
+}
+.nav_pill{
+    border: 2px solid var(--primary);
+    border-radius: 0%;
+    width: 100px;
+}
+.product-header::before{
+    content: "";
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 2px;
+    width: 50px;
+    background-color: var(--primary);
+}
+.product-header::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 8px;
+    height: 3px;
+    width: 80px;
+    background-color: #F65004;
+}
+.product-header{
+    position: relative;
+    padding-top: 25px;
+}
+a{
+    text-decoration: none;
+}
+.product-item{
+    box-shadow: 0 0 45px rgba(0,0,0, 0.07);
+}
+.product-item img{
+    transition: 0.5s;
+}
+.product-item img:hover{
+    transform: scale(1.2);
+}
+.product-item a:hover{
+    color: var(--primary);
+}
+.bt-new:hover{
+    background-color: var(--primary) !important;
+     transform: scale(1.2);
+}
+.review-carousel .owl-item .review-item img{
+    width: 60px;
+    height: 60px;
+}
+.review-carousel .owl-item .review-item, .review-carousel .owl-item .review-item *{
+    transition: 0.5s;
+}
+.mt-n4{
+    margin-top: -25px !important;
+}
+.review-carousel .owl-item.center .review-item{
+    background-color: var(--primary) !important;
+}
+.review-carousel .owl-item.center .review-item *{
+    color: #fff !important;
+}
+.review-carousel .owl-item.center .review-item i{
+    color: #F65004 !important;
+}
+.review-carousel .owl-nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.review-carousel .owl-nav .owl-prev,
+.review-carousel .owl-nav .owl-next{
+    margin: 0px 20px;
+    width:50px;
+    height: 50px;
+    border: 2px solid var(--primary) !important;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.review-carousel .owl-nav .owl-prev:hover,
+.review-carousel .owl-nav .owl-next:hover{
+    color: #fff;
+    background-color: var(--primary);
+}
+.icon_footer{
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.Singup{
+    color: #fff;
+    background-color: #3CB815;
+    border: none;
+}
+.formsign{
+    border: 1px solid #ccc;  
+}
+.formsign input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+.up{
+    padding: 40px !important;
+}

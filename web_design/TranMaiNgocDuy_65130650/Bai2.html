@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tran Mai Ngoc Duy - 65130650</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Bai2.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <nav class="nav_menu">
+        <ul>
+            <li class="nav_menu_content active">
+                <a href="#">
+                    <i class=' icon bx bx-home'></i>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="nav_menu_content">
+                <a href="#">
+                    <i class=' icon bx bx-message-dots' ></i>
+                    <span class="text">Messages</span>
+                </a>
+            </li>
+            <li class="nav_menu_content">
+                <a href="#">
+                    <i class=' icon bx bx-user' ></i>
+                    <span class="text">Profile</span>
+                </a>
+            </li>
+            <li class="nav_menu_content">
+                <a href="#">
+                    <i class=' icon bx bx-camera' ></i>
+                    <span class="text">Photos</span>
+                </a>
+            </li>
+            <li class="nav_menu_content">
+                <a href="#">
+                    <i class='icon bx bx-cog' ></i>
+                    <span class="text">Settings</span>
+                </a>
+            </li>
+            <div class="idicator"></div>
+        </ul>
+    </nav>
+<!-- javascript --> 
+<script> 
+    let list=document.querySelectorAll('.nav_menu_content'); 
+    function activeLink(){ 
+    list.forEach((item) => 
+    item.classList.remove('active')); 
+    this.classList.add('active'); 
+    } 
+    list.forEach((item) => 
+    item.addEventListener('click', 
+    activeLink)) 
+</script>
+</body>
+</html>

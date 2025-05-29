@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 450px;
+    padding: 30px 40px 40px 40px;
+    border: 3px solid #70AD47;
+    border-radius: 60px;
+    background-color: white;
+    position: relative;
+}
+
+.container::before {
+    content: "FORM ĐĂNG KÝ";
+    position: absolute;
+    top: -18px;
+    color: #548235;
+    font-weight: bold;
+    background-color: white;
+    padding: 0 20px;
+    font-size: 22px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #1a3f91;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #548235;
+    background-color: white;
+}
+
+.input-group input::placeholder {
+    color: #548235;
+    font-size: 20px;
+}
+
+.group_nut {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button input[type="submit"],
+.button input[type="reset"] {
+    padding: 8px 30px;
+    background-color: #a7d7a7;
+    color:#548235;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #1a3f91;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #95c995;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>65130650 TRẦN MAI NGỌC DUY</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="top-header display-flex">
+            <a href="#">
+                <img src="images/logo1.png" alt="">
+            </a>
+            <ul class="display-flex">
+                <li><a href="#">Đăng nhập</a></li>
+                <li>/</li>
+                <li><a href="#">Đăng ký</a></li>
+            </ul>
+        </div>
+        <!-- vùng slide ảnh -->
+         <div class="slider">
+            <img src="images/slide1.jpg" alt="" class="slide active">
+            <img src="images/slide2.jpg" alt="" class="slide ">
+            <img src="images/slide3.jpg" alt="" class="slide ">
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+         </div>
+          <!-- vùng menu -->
+           <div class="display-flex">
+            <ul class="menu">
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li class="has-submenu"><a href="#" onclick="showSubmenu()">Sản phẩm</a>
+                  <ul class="submenu">
+                    <li><a href="#">Thời trang nam</a></li>
+                    <li><a href="#">THỜI TRANG NỮ</a></li>
+                    <li><a href="#">TRẺ EM</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Tin tức</a></li>
+            </ul>
+            <form action="" class="display-flex search">
+              <input type="text">
+              <button>Tìm kiếm</button>
+            </form>
+           </div>
+        </div>
+    </header>
+    <main></main>
+    <footer></footer>
+    <!-- link javascrip -->
+     <script src="main.js"></script>
+</body>
+</html>
