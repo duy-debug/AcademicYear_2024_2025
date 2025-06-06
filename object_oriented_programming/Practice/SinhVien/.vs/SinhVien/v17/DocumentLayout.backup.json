@@ -14,24 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\NTU\\AcademicYear_2024_2025\\Semester2\\Specialized\\object_oriented_programming\\Practice\\SinhVien\\SinhVien\\Program.cs",
-              "RelativeDocumentMoniker": "SinhVien\\Program.cs",
-              "ToolTip": "D:\\NTU\\AcademicYear_2024_2025\\Semester2\\Specialized\\object_oriented_programming\\Practice\\SinhVien\\SinhVien\\Program.cs",
-              "RelativeToolTip": "SinhVien\\Program.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAA/wHkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T13:43:07.559Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -44,6 +31,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\NTU\\AcademicYear_2024_2025\\Semester2\\Specialized\\object_oriented_programming\\Practice\\SinhVien\\SinhVien\\Program.cs",
+              "RelativeDocumentMoniker": "SinhVien\\Program.cs",
+              "ToolTip": "D:\\NTU\\AcademicYear_2024_2025\\Semester2\\Specialized\\object_oriented_programming\\Practice\\SinhVien\\SinhVien\\Program.cs",
+              "RelativeToolTip": "SinhVien\\Program.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAADwvxIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T13:43:07.559Z",
+              "EditorCaption": ""
             }
           ]
         }
